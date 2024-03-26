@@ -70,7 +70,7 @@ const AboveBar = () => {
             />
           </div>
           <div className=" flex  items-center  justify-center gap-[3px]">
-            <Link href="/#" className=" text-base">
+            <Link href="/login" className=" text-base">
               Login
             </Link>
             <CiUser color="white" className=" h-4 w-4 " />
@@ -82,7 +82,7 @@ const AboveBar = () => {
             <CiHeart color="white" className=" h-4 w-4" />
           </div>
           <Link
-            href="/#"
+            href="/curt"
             className=" flex  items-center  justify-center gap-[3px]"
           >
             <SlBasket color="white" className=" h-4 w-4" />

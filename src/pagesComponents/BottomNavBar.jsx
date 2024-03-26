@@ -42,11 +42,11 @@ const BottomNavBar = () => {
                 bgColor="bg-white"
               />
             </div>
-            <Link href="/#">Pages</Link>
+            <Link href="/about">Pages</Link>
             <Link href="/#">Products</Link>
-            <Link href="/#">Blog</Link>
+            <Link href="/blog">Blog</Link>
             <Link href="/#">Shop</Link>
-            <Link href="/#">Contact</Link>
+            <Link href="/contactus">Contact</Link>
           </nav>
           <form className="flex  items-center">
             <input
