@@ -22,7 +22,7 @@ const BottomNavBar = () => {
         className=" w-[1140px] 
     h-full 
     mx-auto 
-    xl:px-20
+    
     md:px-10
     sm:px-2
     "
@@ -43,9 +43,9 @@ const BottomNavBar = () => {
               />
             </div>
             <Link href="/about">Pages</Link>
-            <Link href="/#">Products</Link>
+            <Link href="/details">Products</Link>
             <Link href="/blog">Blog</Link>
-            <Link href="/#">Shop</Link>
+            <Link href="/shoplist">Shop</Link>
             <Link href="/contactus">Contact</Link>
           </nav>
           <form className="flex  items-center">

@@ -34,10 +34,10 @@ const AboveBar = () => {
   return (
     <div
       className="w-full h-11 bg-violet  mx-auto 
-    xl:px-2
+    
     md:px-10
     sm:px-2
-    px-4  flex justify-center items-center"
+  flex justify-center items-center"
     >
       <nav className="flex justify-between  gap-80  text-white  ">
         <div className="flex  gap-4  ">

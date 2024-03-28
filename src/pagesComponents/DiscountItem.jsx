@@ -6,7 +6,7 @@ import Image from "next/image";
 const DiscountItem = () => {
   const [activeType, setActiveType] = useState(0);
   return (
-    <div>
+    <div className="max-w-[1168px] mx-auto">
       <h1 className=" mt-20 text-[42px] font-bold font-josefin leading-normal text-blue text-center items-baseline ">
         Discount Item
       </h1>
@@ -42,11 +42,15 @@ const DiscountItem = () => {
           <li>Sofa colection</li>
         </button>
       </ul>
-      <div className="flex w-[1214px] h-[540px] mx-auto">
+      <div className="flex  gap-2 h-[540px] mx-auto max-w-[1168px] ">
         <div className="w-[545px] h-[597px]  mt-5 space-y-7">
-          <h1 className="font-bold font-josefin text-blue text-[35px] leading-[46.2px] ">20% Discount Of All Products</h1>
-          <h3  className="font-normal  font-josefin text-pink text-[21px] leading-[27.72px] ">Eams Sofa Compact</h3>
-          <p  className="font-normal font-josefin text-medgray text-[17px] leading-[30px] ">
+          <h1 className="font-bold font-josefin text-blue text-[35px] leading-[46.2px] ">
+            20% Discount Of All Products
+          </h1>
+          <h3 className="font-normal  font-josefin text-pink text-[21px] leading-[27.72px] ">
+            Eams Sofa Compact
+          </h3>
+          <p className="font-normal font-josefin text-medgray text-[17px] leading-[30px] ">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eu eget
             feugiat habitasse nec, bibendum condimentum.
           </p>
@@ -128,17 +132,23 @@ const DiscountItem = () => {
               </div>
             </div>
           </div>
-          <button className=" w-[200px] h-[57px] bg-pink text-white "> shop Now</button>
+          <button className=" w-[200px] h-[57px] bg-pink text-white ">
+            {" "}
+            shop Now
+          </button>
         </div>
 
-
-         <div  className="flex justify-center items-center bg-[url('/images/Ellipse 64.png')]  bg-no-repeat bg-center ">
-         <Image src="/images/tortuga-01-b 1.png"  width={699}  height={440} alt="sofa"/>
-         </div>
-        
-    
-      </div> 
-
+        <div>
+          <div className=" bg-node w-[412px] h-[412px]  rounded-full  relative left-[120px] top-[80px]"></div>
+          <Image
+            src="/images/tortuga-01-b 1.png"
+            width={699}
+            height={5}
+            alt="sofa"
+            className=" relative top-[-410px]"
+          />
+        </div>
+      </div>
     </div>
   );
 };

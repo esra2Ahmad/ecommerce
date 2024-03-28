@@ -48,7 +48,7 @@ const Abovefooter = () => {
                 <h1 className=' text-black  font-semibold leading-normal text-[22px] font-josefin'>Customer Care</h1>
                 <div className='flex flex-col gap-6'>
                 <Link  href='/singleblog'className=' text-gray2  font-norml leading-normal text-[16px] font-josefin'>Blog</Link>
-                <Link href="/SideBar" className=' text-gray2  font-norml leading-normal text-[16px] font-josefin'>Browse the Shop</Link>
+                <Link href="/#" className=' text-gray2  font-norml leading-normal text-[16px] font-josefin'>Browse the Shop</Link>
                 <Link href='/curt'className=' text-gray2  font-norml leading-normal text-[16px] font-josefin'>Category</Link>
                 <Link href="/shop"className=' text-gray2  font-norml leading-normal text-[16px] font-josefin'>Pre-Built Pages</Link>
                 <Link href='/faq'className=' text-gray2  font-norml leading-normal text-[16px] font-josefin'>Visual Composer Elements</Link>

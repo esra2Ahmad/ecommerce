@@ -5,10 +5,10 @@ const TitleHeader = () => {
     <div className="mb-[74px] mt-[124px]">
       <div
         className="
-      max-w-[1168px] 
+     max-w-[1168px] 
       mx-auto
-      md:px-0
-      sm:px-2
+      px-11
+    
        
       "
       >

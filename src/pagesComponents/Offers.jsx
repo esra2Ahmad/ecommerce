@@ -4,10 +4,10 @@ const Offers = () => {
   return (
     <div className='pt-[150px]'>
         <h1 className=' font-josefin text-[42px] bold text-blue text-center'>What Shopex Offer!</h1>
-        <div className='flex w-[1177px] 
+        <div className='flex max-w-[1168px] 
     h-full 
     mx-auto 
-    xl:px-20
+  
     md:px-10
     sm:px-2 pt-28   gap-12'>
         <div className=" w-[700px] flex flex-col justify-center items-center space-y-7 bg-white  ">

@@ -27,7 +27,7 @@ const FetauredProduct = () => {
           className="whitespace-nowrap  duration-1000"
           style={{ transform: `translate(-${activeIndex * 100}%)` }}
         >
-        <div className=" inline-flex items-center justify-center gap-[29px] w-[1168px] h-[365px] px-2">
+        <div className=" inline-flex items-center justify-center gap-[29px] w-[1168px] h-[365px] ">
         {products.map((product,index)=>(
           <Card
           key= {index}
