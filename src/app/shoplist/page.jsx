@@ -17,7 +17,7 @@ const page = () => {
         <BottomNavBar />
       </div>
       <div className="h-[286px]  w-full  mx-auto bg-medviolet mt-10 mb-[124px]">
-        <div className="max-w-[1140px] mx-auto md:px-10 sm:px-2 px-4 flex flex-col  gap-2 ">
+        <div className="max-w-[1140px] mx-auto px-10 flex flex-col  gap-2 ">
           <h1 className=" text-dark  font-bold  text-[36px]  leading-normal mt-[75px]">
           Shop List
           </h1>
@@ -28,9 +28,9 @@ const page = () => {
             <p className=" text-black  font-medium  text-[16px] font-josefin hover:text-pink">
               Pages .
             </p>
-            <p className=" text-black  font-medium  text-[16px] font-josefin hover:text-pink">
+            <Link  href="/SideBar" className=" text-black  font-medium  text-[16px] font-josefin hover:text-pink">
             Shop List .
-            </p>
+            </Link>
           </div>
         </div>
       </div>

@@ -25,22 +25,22 @@ const Abovefooter = () => {
             <div className=' mt-[95px] flex flex-col  gap-10'>
                 <h1 className=' text-black  font-semibold leading-normal text-[22px] font-josefin'>Catogaries</h1>
                 <div className='flex flex-col gap-6'>
-                <p className=' text-gray2  font-norml leading-normal text-[16px] font-josefin'>Laptops & Computers</p>
-                <p className=' text-gray2  font-norml leading-normal text-[16px] font-josefin'>Cameras & Photography</p>
-                <p className=' text-gray2  font-norml leading-normal text-[16px] font-josefin'>Smart Phones & Tablets</p>
-                <p className=' text-gray2  font-norml leading-normal text-[16px] font-josefin'>Video Games & Consoles</p>
-                <p className=' text-gray2  font-norml leading-normal text-[16px] font-josefin'>Waterproof Headphones</p>
+                <Link href="/about" className=' text-gray2  font-norml leading-normal text-[16px] font-josefin'>Laptops & Computers</Link>
+                <Link href="/about" className=' text-gray2  font-norml leading-normal text-[16px] font-josefin'>Cameras & Photography</Link>
+                <Link href="/about" className=' text-gray2  font-norml leading-normal text-[16px] font-josefin'>Smart Phones & Tablets</Link>
+                <Link href="/about" className=' text-gray2  font-norml leading-normal text-[16px] font-josefin'>Video Games & Consoles</Link>
+                <Link href="/about" className=' text-gray2  font-norml leading-normal text-[16px] font-josefin'>Waterproof Headphones</Link>
                 </div>
 
             </div>
             <div className=' mt-[95px] flex flex-col  gap-10'>
                 <h1 className=' text-black  font-semibold leading-normal text-[22px] font-josefin'>Customer Care</h1>
                 <div className='flex flex-col gap-6'>
-                <p className=' text-gray2  font-norml leading-normal text-[16px] font-josefin'>My Account</p>
-                <p className=' text-gray2  font-norml leading-normal text-[16px] font-josefin'>Discount</p>
+                <Link href="/login" className=' text-gray2  font-norml leading-normal text-[16px] font-josefin'>My Account</Link>
+                <Link href="/about" className=' text-gray2  font-norml leading-normal text-[16px] font-josefin'>Discount</Link>
                 <Link href='/error' className=' text-gray2  font-norml leading-normal text-[16px] font-josefin'>retuns</Link>
                 <Link href="/order" className=' text-gray2  font-norml leading-normal text-[16px] font-josefin'>Orders History</Link>
-                <p className=' text-gray2  font-norml leading-normal text-[16px] font-josefin'>Order Tracking</p>
+                < Link href="/about"className=' text-gray2  font-norml leading-normal text-[16px] font-josefin'>Order Tracking</Link>
                 </div>
 
             </div>
@@ -49,7 +49,7 @@ const Abovefooter = () => {
                 <div className='flex flex-col gap-6'>
                 <Link  href='/singleblog'className=' text-gray2  font-norml leading-normal text-[16px] font-josefin'>Blog</Link>
                 <Link href="/#" className=' text-gray2  font-norml leading-normal text-[16px] font-josefin'>Browse the Shop</Link>
-                <Link href='/curt'className=' text-gray2  font-norml leading-normal text-[16px] font-josefin'>Category</Link>
+                <Link href='/demo'className=' text-gray2  font-norml leading-normal text-[16px] font-josefin'>Category</Link>
                 <Link href="/shop"className=' text-gray2  font-norml leading-normal text-[16px] font-josefin'>Pre-Built Pages</Link>
                 <Link href='/faq'className=' text-gray2  font-norml leading-normal text-[16px] font-josefin'>Visual Composer Elements</Link>
                 <Link href='/aboutus' className=' text-gray2  font-norml leading-normal text-[16px] font-josefin'>WooCommerce Pages</Link>

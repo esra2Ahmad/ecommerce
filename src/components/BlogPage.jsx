@@ -5,7 +5,7 @@ const BlogPage = (props) => {
   return (
     <div>
       <div>
-        <Image src={props.image} width={700} height={453} alt="imageblog" />
+        <Image src={props.image} width={800} height={453} alt="imageblog" />
         <div className="flex flex-row gap-11 mt-8">
           <div className="flex flx-row gap-6 ml-3 justify-center items-center">
             <svg
