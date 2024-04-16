@@ -22,7 +22,7 @@ const Heropromo = () => {
   };
 
   return (
-    <div className="w-full h-[764px] mt-4 relative overflow-hidden flex flex-col justify-center mx-auto">
+    <div className="w-full h-[764px] mt-4 relative overflow-hidden flex flex-col justify-center ">
       <div
         className="whitespace-nowrap duration-500  "
         style={{ transform: `translate(-${activeIndex * 100}%)` }}

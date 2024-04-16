@@ -6,7 +6,7 @@ import Image from "next/image";
 const DiscountItem = () => {
   const [activeType, setActiveType] = useState(0);
   return (
-    <div className="max-w-[1168px] mx-auto">
+    <div className="w-[1168px] mx-auto">
       <h1 className=" mt-20 text-[42px] font-bold font-josefin leading-normal text-blue text-center items-baseline ">
         Discount Item
       </h1>
@@ -42,8 +42,8 @@ const DiscountItem = () => {
           <li>Sofa colection</li>
         </button>
       </ul>
-      <div className="flex  gap-2 h-[540px] mx-auto max-w-[1168px] ">
-        <div className="w-[545px] h-[597px]  mt-5 space-y-7">
+      <div className="flex  gap-11  h-[540px] ml-auto w-full pl-4 xl:pl-20 ">
+        <div className="w-[755px] h-[597px]  mt-5 space-y-7">
           <h1 className="font-bold font-josefin text-blue text-[35px] leading-[46.2px] ">
             20% Discount Of All Products
           </h1>
@@ -139,13 +139,13 @@ const DiscountItem = () => {
         </div>
 
         <div>
-          <div className=" bg-node w-[412px] h-[412px]  rounded-full  relative left-[120px] top-[80px]"></div>
+        
           <Image
             src="/images/tortuga-01-b 1.png"
-            width={699}
-            height={5}
+            width={1200}
+            height={600}
             alt="sofa"
-            className=" relative top-[-410px]"
+            className=" relative  w-[700px]  h-[500px] top-[-70px]"
           />
         </div>
       </div>

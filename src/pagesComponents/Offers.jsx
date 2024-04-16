@@ -2,15 +2,16 @@ import React from 'react'
 
 const Offers = () => {
   return (
-    <div className='pt-[150px]'>
+    <div className='pt-[150px] w-[1168px] mx-auto'>
         <h1 className=' font-josefin text-[42px] bold text-blue text-center'>What Shopex Offer!</h1>
-        <div className='flex max-w-[1168px] 
+        <div className='flex w-full 
     h-full 
     mx-auto 
-  
+    px-4
+    xl:px-20
     md:px-10
     sm:px-2 pt-28   gap-12'>
-        <div className=" w-[700px] flex flex-col justify-center items-center space-y-7 bg-white  ">
+        <div className=" w-[800px] flex flex-col justify-center items-center space-y-7  ">
             
             <svg className='mt-4' width="65" height="65" viewBox="0 0 65 65" fill="none" xmlns="http://www.w3.org/2000/svg">
   <g clip-path="url(#clip0_146_3034)">
@@ -42,7 +43,7 @@ const Offers = () => {
             <h3 className='text-[22px] font-josefin  font-semibold text-blue text-center'>24/7 Support</h3>
             <p className='text-[16px] font-josefin  bold text-lightgray leading-[26px] text-center '>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa purus gravida.</p>
         </div>
-        <div className=" w-[700px] flex flex-col justify-center items-center space-y-7 bg-white pt-4">
+        <div className=" w-[800px] flex flex-col justify-center items-center space-y-7 pt-4">
             <svg className="" width="65" height="65" viewBox="0 0 65 65" fill="none" xmlns="http://www.w3.org/2000/svg">
   <g clip-path="url(#clip0_146_3093)">
     <path d="M64.6517 24.2826C64.4096 24.0226 64.0607 23.8885 63.7055 23.8885H59.8065C58.232 17.373 54.5504 11.4686 49.3506 7.16219C43.7775 2.54706 36.7175 0.00380859 29.4693 0C29.3499 0 29.2294 0.0255176 29.1277 0.0881055C28.8534 0.25708 28.755 0.580811 28.8587 0.857568L32.3393 10.1463C32.4321 10.3943 32.669 10.5584 32.9337 10.5584C41.1644 10.5584 48.3763 16.0847 50.5995 23.8885H47.2517C46.8964 23.8885 46.5476 24.0226 46.3055 24.2826C45.8493 24.7726 45.8515 25.4909 46.2513 25.9707L54.5033 35.873C54.7445 36.1625 55.1019 36.3299 55.4787 36.3299C55.8555 36.3299 56.2127 36.1626 56.454 35.873L64.706 25.9707C65.1057 25.4909 65.1078 24.7726 64.6517 24.2826Z" fill="#507BE9"/>
@@ -70,7 +71,7 @@ const Offers = () => {
             <h3 className='text-[22px] font-josefin text-center  font-semibold text-blue'>24/7 Support</h3>
             <p className='text-[16px] font-josefin text-center bold text-lightgray leading-[26px]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa purus gravida.</p>
         </div>
-        <div className=" w-[700px] flex flex-col justify-center items-center space-y-7 bg-white pt-4">
+        <div className=" w-[800px] flex flex-col justify-center items-center space-y-7 pt-4">
             
             <svg width="65" height="65" viewBox="0 0 65 65" fill="none" xmlns="http://www.w3.org/2000/svg">
   <g clip-path="url(#clip0_146_3060)">
@@ -97,7 +98,7 @@ const Offers = () => {
             <h3 className='text-[22px] font-josefin text-center font-semibold text-blue'>24/7 Support</h3>
             <p className='text-[16px] font-josefin text-center  bold text-lightgray leading-[26px] '>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa purus gravida.</p>
         </div>
-        <div className=" w-[700px] flex flex-col justify-center items-center space-y-7 bg-white pt-4 h-[300px]">
+        <div className=" w-[800px] flex flex-col justify-center items-center space-y-7  pt-4 h-[300px]">
             
             <svg width="65" height="65" viewBox="0 0 65 65" fill="none" xmlns="http://www.w3.org/2000/svg">
   <g clip-path="url(#clip0_146_3080)">

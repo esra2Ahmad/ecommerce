@@ -8,6 +8,7 @@ import { CiUser } from "react-icons/ci";
 import { SlBasket } from "react-icons/sl";
 import DropDownMenu from "../components/DropDownMenu";
 import Link from "next/link";
+import { Container } from "postcss";
 
 const AboveBar = () => {
   const languages = [
@@ -32,14 +33,11 @@ const AboveBar = () => {
   ];
 
   return (
-    <div
-      className="w-full h-11 bg-violet  mx-auto 
+    <div className="w-full h-11 bg-violet  ">
+      <div className="w-[1187px] h-full mx-auto xl:px-20 md:px-10 sm:px-2 px-4 flex items-center">
     
-    md:px-10
-    sm:px-2
-  flex justify-center items-center"
-    >
-      <nav className="flex justify-between  gap-80  text-white  ">
+  
+      <nav className="flex justify-between items-center  gap-80  text-white  ">
         <div className="flex  gap-4  ">
           <div className="flex justify-center  items-center gap-2.5 ">
             <CiMail color="white" className="  w-4 h-4" />
@@ -89,6 +87,7 @@ const AboveBar = () => {
           </Link>
         </div>
       </nav>
+      </div>
     </div>
   );
 };

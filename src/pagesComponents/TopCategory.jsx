@@ -18,7 +18,7 @@ const TopCategory = () => {
   return (
     <div
       className="
-    max-w-[1168px] 
+    w-[1168px] 
     mx-auto
     md:px-0
     sm:px-2

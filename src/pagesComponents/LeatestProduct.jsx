@@ -6,7 +6,7 @@ import { useState } from "react";
 const LeatestProduct = () => {
   const [activeType, setActiveType] = useState(0);
   return (
-    <div className="pt-[40px]">
+    <div className="pt-[40px]  w-[1168px] mx-auto  ">
       <h1 className=" text-dark text-center pt-[30px] font-bold  text-[42px]  leading-normal  font-Josefin">
         {" "}
         LeatesProducts
@@ -54,12 +54,14 @@ const LeatestProduct = () => {
         </button>
       </ul>
       <div
-        className=" w-[1186px] 
+        className=" w-full 
     h-full 
     mx-auto
     md:px-0
     sm:px-2 
-    grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-[37px] " 
+    xl:px-20
+    px-4
+    grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-[50px] " 
       >
         {details.map((detail, index) => (
           <Details

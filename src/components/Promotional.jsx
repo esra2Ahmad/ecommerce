@@ -4,43 +4,47 @@ import Image from "next/image";
 
 const Promotional = () => {
   return (
-    <div className="w-full h-[764px] bg-lightviolet relative  inline-flex mt-20">
+    <div className="w-full  h-[764px] bg-white bg-opacity-90 relative  inline-flex  mt-20">
       <div>
         <Image
           src="/images/image 32(1).png"
           width={387}
           height={387}
-          alt=""
+          alt="lamp"
+          className=" absolute top-0 "
         />
       </div>
-      <div className=" flex flex-col justify-center items-start  absolute  top-60 left-80">
-        <p className="text-pink text-base font-bold leading-7">
-          Best Furniture For Your Castle....
-        </p>
-        <h1 className="text-black text-[40px] font-bold tracking-wide">
-          New Furniture Collection
-          <br />
-          Trends in 2020
-        </h1>
-        <p className="text-lightgray text-base font-bold leading-7">
-          Lorem ipsum dolor sit amet, consectetur adipiscing 
-          elit. Magna in <br/>est adipiscing in phasellus non in justo.
-        </p>
-        <button className="w-[163px] h-[50px] bg-pink rounded-sm text-white text-[17px] font-semibold tracking-tight mt-10">
-          Shop Now
-        </button>
+      <div className=" w-[1137px] h-full mx-auto xl:px-20 md:px-10 sm:px-2 px-4">
+        <div className=" flex flex-col justify-center items-start  absolute  mt-[200px] ml-[60px]">
+          <p className="text-pink text-base font-bold leading-7">
+            Best Furniture For Your Castle....
+          </p>
+          <h1 className="text-black text-[40px] font-bold tracking-wide">
+            New Furniture Collection
+            <br />
+            Trends in 2020
+          </h1>
+          <p className="text-lightgray text-base font-bold leading-7">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Magna in{" "}
+            <br />
+            est adipiscing in phasellus non in justo.
+          </p>
+          <button className="w-[163px] h-[50px] bg-pink rounded-sm text-white text-[17px] font-semibold tracking-tight mt-10">
+            Shop Now
+          </button>
+        </div>
       </div>
       <div className="  ">
-        <div className="w-[551px] h-[551px] bg-lightpink bg-opacity-30 rounded-full absolute right-[43px] top-[50px]" />
-        <div className="w-[548px] h-[548px] bg-lightpink bg-opacity-30 rounded-full absolute right-[80px] top-[60px]" />
+        <div className="w-[518px] h-[518px]  bg-lightpink bg-opacity-35 rounded-full absolute right-[50px] top-[59px] " />
+        <div className="w-[544px] h-[540px]   bg-lightpink  bg-opacity-35 rounded-full absolute right-[92px] top-[70px] z-[1]" />
         <Image
           src="/images/Shell-Shaped-Armchair-Pink-Velvet-Fabric-One-Seater-Sofa-for-Living-Room 1.png"
-          width={529}
-          height={529}
+          width={519}
+          height={519}
           alt=""
-          className="absolute right-[90px] top-[159px]"
+          className="absolute right-[90px] top-[80px] z-10"
         />
-        <div className="w-[136.56px] h-[138.49px] absolute right-[85px] top-[44px] flex justify-center items-start">
+        <div className="w-[136.56px] h-[138.49px] absolute right-[85px] top-[14px] flex justify-center items-startz-[10]">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="139"

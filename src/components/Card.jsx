@@ -4,8 +4,8 @@ import { AiFillHeart, AiOutlineHeart, AiOutlineZoomIn } from "react-icons/ai";
 
 const Card = (props) => {
   return (
-    <div className=" group w-[270px] h-[361px]  hover:bg-blue1 shadow flex flex-col items-center justify-start gap-3 ">
-      <div className="w-[270px] h-[236px] flex justify-center items-center relative bg-white  ">
+    <div className=" group w-[240px] h-[361px]  hover:bg-blue1 shadow flex flex-col items-center justify-start gap-3 ">
+      <div className="w-[240px] h-[236px] flex justify-center items-center relative bg-white  ">
         <Image src={props.image} width="189" height="251" alt="" />
         <div className="absolute left-[15px]  top-1 hidden group-hover:flex flex-row justify-start items-center gap-[16px]">
           <button className=" hover:scale-125 duration-300 text-[#2F1AC4]  ">

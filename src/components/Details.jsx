@@ -5,8 +5,8 @@ import { AiFillHeart, AiOutlineHeart, AiOutlineZoomIn } from "react-icons/ai";
 
 const Details = (props) => {
   return (
-    <div className="  group w-[360px] h-[306px] flex flex-col justify-start gap-[16px] ">
-      <div className="w-[360px] h-[269.96px] relative bg-white flex justify-center gap-10  hover:bg-neutral_100  duration-30">
+    <div className="  group w-[340px] h-[306px] flex flex-col justify-start gap-[16px] ">
+      <div className="w-[340px] h-[269.96px] relative bg-white  bg-opacity-25 flex justify-center gap-10  hover:bg-neutral_100  duration-30">
         <Image
           src={props.image}
           width="0"

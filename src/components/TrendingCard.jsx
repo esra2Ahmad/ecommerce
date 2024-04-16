@@ -4,9 +4,9 @@ import Image from "next/image";
 const Card = (props) => {
   return (
        
-    <div className=" group w-[247px] h-[244px] shadow flex flex-col items-center justify-start gap-3 ">
+    <div className=" group w-[217px] h-[244px] shadow flex flex-col items-center justify-start gap-3">
        
-      <div className="w-[247px] h-[244px] flex justify-center items-center relative bg-white  ">
+      <div className="w-[217px] h-[244px] flex justify-center items-center relative  bg-lightviolet ">
         <Image
           src={props.image}
           width="0"
@@ -16,7 +16,7 @@ const Card = (props) => {
           alt=""
         />
       </div>
-      <div className="flex flex-col h-[100px]">
+      <div className="flex flex-col h-[130px]">
         <p className="text-bold text-[16px] leading-[25.5px] text-blue">{props.title}</p>
         <div className="flex flex-row gap-5">
           <p className="text-bold text-[16px] leading-[25.5px] text-blue">{props.price}</p>

@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const CardBlog = (props) => {
   return (
-    <div className="w-[370px] h-[493px] relativ rounded-[5px] shadow ">
+    <div className="w-[300px] h-[493px] relativ rounded-[5px] shadow ">
       <Image
         src={props.image}
         width={0}

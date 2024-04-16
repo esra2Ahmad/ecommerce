@@ -19,15 +19,16 @@ const BottomNavBar = () => {
   return (
     <div className="w-full h-11 pt-5 ">
       <div
-        className=" w-[1140px] 
+        className=" w-[1187px] 
     h-full 
     mx-auto 
-    
+    xl:px-20
     md:px-10
     sm:px-2
+    px-4
     "
       >
-        <div className=" flex  justify-between">
+        <div className=" flex  justify-between gap-11 ">
           <div>
             <h1 className="text-darkblue  font-bold text-[34px]    text-center font-josefin">
               Hekto
